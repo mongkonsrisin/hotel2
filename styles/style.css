@@ -1,0 +1,69 @@
+body{
+    font-family: 'Prompt', sans-serif;
+}
+h1 {
+    font-size: 20pt;
+}
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.text-danger {
+    color: red;
+}
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+.title {
+    font-size: 30pt;
+}
+.h_option_list {
+    list-style-type: none;
+    padding: 0;
+}
+ul.h_option_list li {
+    display:inline;
+  }
+
+  .hilight ul {
+    list-style-type: none;
+  }
+  .hilight li:before {
+    content: "\f00c"; /* FontAwesome Unicode */
+    font-family: FontAwesome;
+    display: inline-block;
+    margin-left: -1.3em; /* same as padding-left set on li */
+    width: 1.3em; /* same as padding-left set on li */
+  }
+
+
+._wifi {
+    color: green;
+}
+._stamp {
+    color: purple;
+}
+._waruntee {
+    color: indigo;
+}
+._hwarning {
+    background-color: lemonchiffon;
+
+}
+
+.content {
+    column-count: 3;
+}
+
+._hwarning_content {
+    padding: 16px;
+    margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+        .content {
+            column-count: 1
+        }
+  }
