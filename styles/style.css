@@ -17,22 +17,25 @@ a:hover{
     text-decoration-style: dotted;
 
 }
-
-.text-danger {
+.text-red {
     color: red;
 }
-.img-fluid {
+.head {
+    margin-top: 20px;
+}
+.img {
     max-width: 100%;
     height: auto;
+    border-radius: 6px;
 }
 .title {
     font-size: 30pt;
 }
-.h_option_list {
+.hotel-option-list {
     list-style-type: none;
     padding: 0;
 }
-ul.h_option_list li {
+ul.hotel-option-list>li {
     display:inline;
   }
 
@@ -47,7 +50,6 @@ ul.h_option_list li {
     width: 1.3em; /* same as padding-left set on li */
   }
 
-
 ._wifi {
     color: green;
 }
@@ -57,15 +59,20 @@ ul.h_option_list li {
 ._waruntee {
     color: indigo;
 }
-._hwarning {
+.warning {
     background-color: lemonchiffon;
-
+    padding: 16px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    border-radius: 6px;
 }
 
-.content {
+.list {
     column-count: 3;
 }
-
+.list li {
+    color: #555
+}
 ._hwarning_content {
     padding: 16px;
     margin-bottom: 20px;
@@ -77,14 +84,15 @@ hr {
     margin-bottom: 28px;
 }
 
+
 @media only screen and (max-width: 900px) {
-    .content {
+    .list {
         column-count: 2
     }
 }
 
 @media only screen and (max-width: 600px) {
-        .content {
+        .list {
             column-count: 1
         }
   }
