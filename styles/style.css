@@ -8,6 +8,14 @@ h1 {
     max-width: 1200px;
     margin: auto;
 }
+a {
+    color:inherit;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+
+}
 
 .text-danger {
     color: red;
