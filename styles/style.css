@@ -71,6 +71,12 @@ ul.h_option_list li {
     margin-bottom: 20px;
 }
 
+@media only screen and (max-width: 900px) {
+    .content {
+        column-count: 2
+    }
+}
+
 @media only screen and (max-width: 600px) {
         .content {
             column-count: 1
